@@ -107,3 +107,23 @@ IOError: [Errno 2] No such file or directory: '/Users/Heinz-MacBook/Documents/wo
 2017-05-09 20:58:38,523    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
 2017-05-09 20:58:38,523    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
 2017-05-09 20:58:38,523    v1.2.3   [INFO]      The input File T10T are deletet
+2017-05-09 21:01:19,156    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 21:01:19,156    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 21:01:19,157    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 21:01:19,157    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 21:01:19,157    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 21:01:19,157    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 21:01:19,157    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 21:01:19,158    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 21:01:19,158    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 21:01:19,159    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 21:39:14,731    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 21:39:14,732    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 21:39:14,733    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 21:39:14,734    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 21:39:14,734    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 21:39:14,734    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 21:39:14,734    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 21:39:14,735    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 21:39:14,737    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 21:39:14,738    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory

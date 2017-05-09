@@ -21,6 +21,24 @@ import json
 import shutil
 import logging
 import datetime
+import socket
+
+print socket.gethostname()
+
+# ----  Abfrage des Environments ------
+if socket.gethostname() in ['mpzhwmvdfs01', 'mpzhwsvdfs02', 'mpzhwsvdfs03', 'mpzhwsvdfs04', 'mpzhwsvdfs05', 'mpzhwsvdfs06', 'mpzhwfvdfs07']:
+        env = 'prodenv'
+        print env
+elif socket.gethostname() in ['mislwmvdfs41', 'mislwsvdfs42', 'mislwsvdfs43', 'mislwsvdfs44', 'mislwsvdfs45', 'mislwsvdfs46', 'mislwfvdfs47']:
+        env = 'intenv'
+        print env
+elif socket.gethostname() in ['Heinzs-MacBook-Pro.local']:
+        env = 'localenv'
+        print env
+else:
+        print 'Wrong Environment'
+        exit()    
+
 
 # ***************************************
 #    ISO Timezone UTC and Juldate       *
@@ -43,38 +61,38 @@ date_time_tzDelta = date_time + UTCDiff()
 #    Configfile variablen    *
 # ****************************
 try:
-    from configparser import ConfigParser
+    from configparser import SafeConfigParser
 except ImportError:
-    from ConfigParser import ConfigParser  # ver. < 3.0
+    from ConfigParser import SafeConfigParser  # ver. < 3.0
 
-config = ConfigParser()                             # instantiate
+parser = SafeConfigParser()                             # instantiate
 
 
 # parse existing config file
-config.read('../cfg/damon.cfg')                                                     # For local use    
-config.read('/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/cfg')  # For server use
+parser.read('../cfg/damon.cfg')                                                     # For local use    
+parser.read('/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/cfg')  # For server use
 
-mergPath          = config.get('input', 'mergPath')
-logPath           = config.get('input', 'logPath')
-jsonPath          = config.get('input', 'jsonPath')
-jsonPathSave      = config.get('input', 'jsonPathSave')
-onlinestorage     = config.get('input', 'onlinestorage')
-service           = config.get('input', 'service')
-server            = config.get('input', 'server')
-application       = config.get('input', 'application')
-environment       = config.get('input', 'environment')
-docfile           = config.get('input', 'docfile')
-Checkpoint        = config.get('input', 'Checkpoint')
-referenceDocsT10T = config.get('input', 'referenceDocsT10T')
-referenceDocsT20T = config.get('input', 'referenceDocsT20T')
-referenceDocsT30T = config.get('input', 'referenceDocsT30T')
-referenceDocsD01T = config.get('input', 'referenceDocsD01T')
-referenceDocsT01S = config.get('input', 'referenceDocsT01S')
-referenceDocsBWK  = config.get('input', 'referenceDocsBWK')
-Group01           = config.get('input', 'Group01')
-Group02           = config.get('input', 'Group02')
-Group03           = config.get('input', 'Group03')
-TempFile          = config.get('input', 'TempFile')
+mergPath          = parser.get(env, 'mergPath')
+logPath           = parser.get(env, 'logPath')
+jsonPath          = parser.get(env, 'jsonPath')
+jsonPathSave      = parser.get(env, 'jsonPathSave')
+onlinestorage     = parser.get(env, 'onlinestorage')
+service           = parser.get(env, 'service')
+server            = parser.get(env, 'server')
+application       = parser.get(env, 'application')
+environment       = parser.get(env, 'environment')
+docfile           = parser.get(env, 'docfile')
+Checkpoint        = parser.get(env, 'Checkpoint')
+referenceDocsT10T = parser.get(env, 'referenceDocsT10T')
+referenceDocsT20T = parser.get(env, 'referenceDocsT20T')
+referenceDocsT30T = parser.get(env, 'referenceDocsT30T')
+referenceDocsD01T = parser.get(env, 'referenceDocsD01T')
+referenceDocsT01S = parser.get(env, 'referenceDocsT01S')
+referenceDocsBWK  = parser.get(env, 'referenceDocsBWK')
+Group01           = parser.get(env, 'Group01')
+Group02           = parser.get(env, 'Group02')
+Group03           = parser.get(env, 'Group03')
+TempFile          = parser.get(env, 'TempFile')
 
 
 # ******************************************************
@@ -321,7 +339,7 @@ except:
 shutil.move(mergPath + fi + '.json', jsonPathSave + fi + '.json-' + juldate)
 logger.info('    The JSON output File are saved in the ' + jsonPathSave + ' Directory')
 
-
+'''
 os.chdir(mergPath)
 for output in glob.glob("*"):
     os.remove(output)
@@ -332,3 +350,4 @@ for output in glob.glob("*"):
 os.remove(TempFile)
 print 'Tempfile are removed'
 logger.info('    The Tempfile ' + TempFile + ' for XML read are deletet')
+'''
