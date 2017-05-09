@@ -20,7 +20,7 @@ import os
 import json
 import shutil
 import logging
-from datetime import datetime
+import datetime
 
 # ***************************************
 #    ISO Timezone UTC and Juldate       *
