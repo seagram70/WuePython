@@ -1,10 +1,17 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-import sys
+import socket
 
+if socket.gethostname() == 'Heinzs-iMac.local':
+    pathlocal = '/Users/heinz-ssd/Documents/workspace/gitwue/wuepython/'
+else:
+    pathlocal == '/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/'
 
-file = open('/Users/Heinz-MacBook/Documents/workspace/Privat/test.log', 'r')
+print pathlocal
+
+#file = open('/Users/Heinz-MacBook/Documents/workspace/wuepythons/test.log', 'r')
+file = open('/Users/heinz-ssd/Documents/workspace/gitwue/wuepython/test.log', 'r')
 
 print file.readlines(49)
 
@@ -16,3 +23,4 @@ for line in file:
         count = count + 1
 
 print count
+

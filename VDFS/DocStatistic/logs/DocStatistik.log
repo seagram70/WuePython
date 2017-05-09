@@ -1,0 +1,26 @@
+2017-05-04 14:27:24,091    v1.0.5   [INFO]  Starting Script to search inputFile to create Statisic for Doc Counts
+2017-05-04 14:27:24,091    v1.0.5   [INFO]  File VDMMAPS.Y2017124.T10T found in the input Directory.
+2017-05-04 14:27:24,153    v1.0.5   [INFO]  The Docs are counted and writied to the File C:\Daten\workspace\rddelivery\VDFS\DocStatistic\Docs\DocStatisik.txt.
+2017-05-04 15:13:52,617    v1.0.5   [INFO]  Starting Script to search inputFile to create Statisic for Doc Counts
+2017-05-04 15:13:52,617    v1.0.5   [INFO]  File VDMMAPS.Y2017124.T10T found in the input Directory.
+2017-05-04 15:13:52,678    v1.0.5   [INFO]  The Docs are counted and writied to the File C:\Daten\workspace\rddelivery\VDFS\DocStatistic\Docs\DocStatisik.txt.
+2017-05-04 15:15:23,822    v1.0.5   [INFO]  Starting Script to search inputFile to create Statisic for Doc Counts
+2017-05-04 15:15:23,822    v1.0.5   [INFO]  File VDMMAPS.Y2017124.T10T found in the input Directory.
+2017-05-04 15:15:23,885    v1.0.5   [INFO]  The Docs are counted and writied to the File C:\Daten\workspace\rddelivery\VDFS\DocStatistic\Docs\DocStatisik.txt.
+2017-05-04 15:15:53,707    v1.0.5   [INFO]  Starting Script to search inputFile to create Statisic for Doc Counts
+2017-05-04 15:15:53,707    v1.0.5   [INFO]  File VDMMAPS.Y2017124.T10T found in the input Directory.
+2017-05-04 15:15:53,832    v1.0.5   [INFO]  The Docs are counted and writied to the File C:\Daten\workspace\rddelivery\VDFS\DocStatistic\Docs\DocStatisik.txt.
+2017-05-04 15:18:07,756    v1.0.5   [INFO]  Starting Script to search inputFile to create Statisic for Doc Counts
+2017-05-04 15:18:07,756    v1.0.5   [INFO]  File VDMMAPS.Y2017124.T10T found in the input Directory.
+2017-05-04 15:18:07,819    v1.0.5   [INFO]  The Docs are counted and writied to the File C:\Daten\workspace\rddelivery\VDFS\DocStatistic\Docs\DocStatisik.txt.
+2017-05-04 15:18:07,849    v1.0.5   [INFO]  call subprocess DocCounter.py with the inputFilename VDMMAPS.Y2017124.T10T.
+2017-05-04 15:18:08,052    v1.0.5   [INFO]  Starting DocCounter per Doc Type
+2017-05-04 15:18:08,131    v1.0.5   [INFO]  write counted Docs to the Outputfile
+2017-05-04 15:18:11,184    v1.0.5   [INFO]  not Sunday, the Script will be abort
+2017-05-04 15:21:24,533    v1.0.5   [INFO]  Starting Script to search inputFile to create Statisic for Doc Counts
+2017-05-04 15:21:26,562    v1.0.5   [INFO]  File VDMMAPS.Y2017124.T30T found in the input Directory.
+2017-05-04 15:21:26,688    v1.0.5   [INFO]  The Docs are counted and writied to the File C:\Daten\workspace\rddelivery\VDFS\DocStatistic\Docs\DocStatisik.txt.
+2017-05-04 15:21:26,720    v1.0.5   [INFO]  call subprocess DocCounter.py with the inputFilename VDMMAPS.Y2017124.T30T.
+2017-05-04 15:21:26,891    v1.0.5   [INFO]  Starting DocCounter per Doc Type
+2017-05-04 15:21:26,970    v1.0.5   [INFO]  write counted Docs to the Outputfile
+2017-05-04 15:21:27,999    v1.0.5   [INFO]  not Sunday, the Script will be abort

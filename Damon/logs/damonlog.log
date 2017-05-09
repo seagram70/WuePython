@@ -1,0 +1,60 @@
+﻿2017-04-19 11:20:48,121    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-04-19 11:20:48,121    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-04-19 11:20:48,121    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-04-19 11:20:48,168    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-04-19 11:20:48,168    v1.2.3   [INFO]      is a K-run, no ref Docs
+2017-04-19 11:20:48,168    v1.2.3   [INFO]      The K61T run has 0 Docs
+2017-04-19 11:20:48,168    v1.2.3   [INFO]      Input File K61T available
+2017-04-19 11:20:48,168    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-04-19 11:20:48,168    v1.2.3   [INFO]      It is a BWK Run, NO Docs are counted in the K61T Output DAMON File
+2017-04-19 11:20:48,168    v1.2.3   [INFO]      Start reading XML Files in all Groups for count Clients per Group
+2017-04-19 11:20:48,512    v1.2.3   [INFO]      XML File read in GROUP01 Directory
+2017-04-19 11:20:49,167    v1.2.3   [INFO]      XML File read in GROUP02 Directory
+2017-04-19 11:20:49,697    v1.2.3   [INFO]      XML File read in GROUP03 Directory
+2017-04-19 11:20:49,713    v1.2.3   [INFO]      JSON File K61T.json for Damon created
+2017-04-19 11:20:49,713    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-04-19 11:20:49,730    v1.2.3   [INFO]      The JSON output File are saved in the C:\Daten\workspace\rddelivery\VDFS\Damon\Files4save\ Directory
+2017-04-19 11:20:49,744    v1.2.3   [INFO]      The input File K61T are deletet
+2017-04-19 11:20:49,885    v1.2.3   [INFO]      The Tempfile U:\nfs\temp.txt for XML read are deletet
+2017-05-02 06:36:20,653    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-02 06:36:20,653    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-02 06:36:20,664    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-02 06:36:20,706    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-05-02 06:36:20,706    v1.2.3   [INFO]      is a K-run, no ref Docs
+2017-05-02 06:36:20,706    v1.2.3   [INFO]      The K61T run has 0 Docs
+2017-05-02 06:36:20,707    v1.2.3   [INFO]      Input File K61T available
+2017-05-02 06:36:20,707    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-02 06:36:20,707    v1.2.3   [INFO]      It is a BWK Run, NO Docs are counted in the K61T Output DAMON File
+2017-05-02 06:36:20,707    v1.2.3   [INFO]      Start reading XML Files in all Groups for count Clients per Group
+2017-05-02 06:36:20,859    v1.2.3   [INFO]      XML File read in GROUP01 Directory
+2017-05-02 06:36:21,318    v1.2.3   [INFO]      XML File read in GROUP02 Directory
+2017-05-02 06:36:21,877    v1.2.3   [INFO]      XML File read in GROUP03 Directory
+2017-05-02 06:36:21,884    v1.2.3   [INFO]      JSON File K61T.json for Damon created
+2017-05-02 06:36:21,892    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-02 06:36:21,898    v1.2.3   [INFO]      The JSON output File are saved in the C:\Daten\workspace\rddelivery\VDFS\Damon\Files4save\ Directory
+2017-05-02 06:36:21,901    v1.2.3   [INFO]      The input File K61T are deletet
+2017-05-02 06:36:21,954    v1.2.3   [INFO]      The Tempfile U:\nfs\temp.txt for XML read are deletet
+2017-05-02 06:36:40,928    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-02 06:36:40,928    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-02 06:36:40,974    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-05-02 10:23:43,151    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-02 10:23:43,151    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-02 10:23:43,401    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-05-02 10:29:32,858    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-02 10:29:32,858    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-02 10:29:33,109    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-05-02 10:29:45,207    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-02 10:29:45,207    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-02 10:29:45,457    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-05-03 06:52:00,457    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-03 06:52:00,457    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-03 06:52:00,500    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-05-03 10:39:25,444    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-03 10:39:25,444    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-03 10:39:25,759    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-05-03 10:53:16,891    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-03 10:53:16,891    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-03 10:53:17,072    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
+2017-05-03 10:53:19,890    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-03 10:53:19,890    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-03 10:53:20,101    v1.2.3   [INFO]      XML File Y2017107.K61.xml detected in Directory.
