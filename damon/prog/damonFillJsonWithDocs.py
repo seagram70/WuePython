@@ -20,8 +20,7 @@ import os
 import json
 import shutil
 import logging
-import datetime
-
+from datetime import datetime
 
 # ***************************************
 #    ISO Timezone UTC and Juldate       *
@@ -52,9 +51,8 @@ config = ConfigParser()                             # instantiate
 
 
 # parse existing config file
-config.read('..\\cfg\\damon.cfg')                         # For local use    
-config.read('F:\\Programs\\Damon\\cfg\\damon.cfg')            # For server use
-
+config.read('../cfg/damon.cfg')                                                     # For local use    
+config.read('/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/cfg')  # For server use
 
 mergPath          = config.get('input', 'mergPath')
 logPath           = config.get('input', 'logPath')
