@@ -127,3 +127,189 @@ IOError: [Errno 2] No such file or directory: '/Users/Heinz-MacBook/Documents/wo
 2017-05-09 21:39:14,735    v1.2.3   [INFO]      JSON File T10T.json for Damon created
 2017-05-09 21:39:14,737    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
 2017-05-09 21:39:14,738    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 21:57:39,294    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 21:57:39,294    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 21:57:39,294    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 21:57:39,294    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 21:57:39,295    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 21:57:39,295    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 21:57:39,295    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 21:57:39,295    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 21:57:39,296    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 21:57:39,296    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 21:58:15,550    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 21:58:15,550    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 21:58:15,550    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 21:58:15,551    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 21:58:15,551    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 21:58:15,551    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 21:58:15,551    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 21:58:15,551    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 21:58:15,552    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 21:58:15,552    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:12:31,682    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:12:31,682    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:12:31,682    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:12:31,683    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:12:31,683    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:12:31,683    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:12:31,683    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:12:31,683    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:12:31,684    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:12:31,684    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:13:41,138    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:13:41,138    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:13:41,139    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:13:41,139    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:13:41,139    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:13:41,139    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:13:41,139    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:13:41,140    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:13:41,140    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:13:41,141    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:14:00,751    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:14:00,751    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:14:00,752    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:14:00,752    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:14:00,752    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:14:00,752    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:14:00,753    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:14:00,753    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:14:00,754    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:14:00,754    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:14:38,681    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:14:38,681    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:14:38,681    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:14:38,681    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:14:38,681    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:14:38,681    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:14:38,682    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:14:38,682    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:14:38,683    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:14:38,683    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:16:57,912    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:16:57,913    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:16:57,913    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:16:57,913    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:16:57,914    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:16:57,914    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:16:57,914    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:16:57,915    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:16:57,915    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:16:57,916    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:17:56,745    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:17:56,745    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:17:56,745    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:17:56,746    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:17:56,746    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:17:56,746    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:17:56,746    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:17:56,748    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:17:56,749    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:17:56,749    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:17:58,842    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:17:58,842    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:17:58,843    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:17:58,843    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:17:58,843    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:17:58,843    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:17:58,843    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:17:58,844    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:17:58,844    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:17:58,845    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:18:00,282    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:18:00,282    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:18:00,282    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:18:00,283    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:18:00,283    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:18:00,283    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:18:00,283    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:18:00,283    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:18:00,284    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:18:00,284    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:18:01,452    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:18:01,452    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:18:01,452    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:18:01,452    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:18:01,452    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:18:01,452    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:18:01,453    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:18:01,453    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:18:01,454    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:18:01,454    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:20:49,575    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:20:49,575    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:20:49,575    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:20:49,575    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:20:49,576    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:20:49,576    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:20:49,576    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:20:49,576    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:20:49,577    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:20:49,577    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:24:24,404    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:24:24,404    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:24:24,405    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:24:24,405    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:24:24,405    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:24:24,405    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:24:24,405    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:24:24,406    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:24:24,406    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:24:24,407    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:29:15,149    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:29:15,149    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:29:15,149    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:29:15,149    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:29:15,150    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:29:15,150    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:29:15,150    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:29:15,150    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:29:15,151    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:29:15,151    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:39:54,417    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:39:54,419    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:39:54,419    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:39:54,420    v1.2.3   [INFO]      The T10T run has 250000 Docs
+2017-05-09 22:39:54,420    v1.2.3   [INFO]      Input File T10T available
+2017-05-09 22:39:54,420    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:39:54,420    v1.2.3   [INFO]      is a Delta Run, the Docs are counting for the T10T Run
+2017-05-09 22:39:54,420    v1.2.3   [INFO]      JSON File T10T.json for Damon created
+2017-05-09 22:39:54,422    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:39:54,423    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:40:56,330    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:40:56,330    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:40:56,330    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:40:56,330    v1.2.3   [INFO]      is a K-run, no ref Docs
+2017-05-09 22:40:56,330    v1.2.3   [INFO]      The K11T run has 0 Docs
+2017-05-09 22:40:56,330    v1.2.3   [INFO]      Input File K11T available
+2017-05-09 22:40:56,330    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:40:56,330    v1.2.3   [INFO]      It is a BWK Run, NO Docs are counted in the K11T Output DAMON File
+2017-05-09 22:40:56,331    v1.2.3   [INFO]      Start reading XML Files in all Groups for count Clients per Group
+2017-05-09 22:40:56,331    v1.2.3   [CRITICAL]   It is a Delta Run, but no File available for counting DOCS.
+Traceback (most recent call last):
+  File "/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/prog/damonFillJsonWithDocs.py", line 261, in <module>
+    with open(Group01 + xmlSel,'r') as FO:                            #Datei schliesst nach dem with
+NameError: name 'xmlSel' is not defined
+2017-05-09 22:40:56,331    v1.2.3   [INFO]      create the JSON File when is a T Run File without a Doc File
+2017-05-09 22:40:56,331    v1.2.3   [INFO]      JSON File K11T.json for Damon created, but without DOC count
+2017-05-09 22:40:56,332    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:40:56,332    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory
+2017-05-09 22:43:31,096    v1.2.3   [INFO]      Starting Script create JSON File for DAMON
+2017-05-09 22:43:31,096    v1.2.3   [INFO]      Create Dictionary for fix parameters in config
+2017-05-09 22:43:31,097    v1.2.3   [INFO]      Search Filename for Delta or BWK Run in glob var and update dictionary
+2017-05-09 22:43:31,097    v1.2.3   [INFO]      is a K-run, no ref Docs
+2017-05-09 22:43:31,097    v1.2.3   [INFO]      The K11T run has 0 Docs
+2017-05-09 22:43:31,097    v1.2.3   [INFO]      Input File K11T available
+2017-05-09 22:43:31,097    v1.2.3   [INFO]      the label are set to VDMMAPS now.
+2017-05-09 22:43:31,097    v1.2.3   [INFO]      It is a BWK Run, NO Docs are counted in the K11T Output DAMON File
+2017-05-09 22:43:31,097    v1.2.3   [INFO]      Start reading XML Files in all Groups for count Clients per Group
+2017-05-09 22:43:31,097    v1.2.3   [CRITICAL]   It is a Delta Run, but no File available for counting DOCS.
+Traceback (most recent call last):
+  File "/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/prog/damonFillJsonWithDocs.py", line 261, in <module>
+    with open(Group01 + xmlSel,'r') as FO:                            #Datei schliesst nach dem with
+NameError: name 'xmlSel' is not defined
+2017-05-09 22:43:31,098    v1.2.3   [INFO]      create the JSON File when is a T Run File without a Doc File
+2017-05-09 22:43:31,098    v1.2.3   [INFO]      JSON File K11T.json for Damon created, but without DOC count
+2017-05-09 22:43:31,099    v1.2.3   [INFO]      move JSON File to the Output Directory for transfer over MQ to DAMON
+2017-05-09 22:43:31,099    v1.2.3   [INFO]      The JSON output File are saved in the /Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/Files4save/ Directory

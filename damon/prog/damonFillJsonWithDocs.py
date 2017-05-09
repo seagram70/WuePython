@@ -351,3 +351,60 @@ os.remove(TempFile)
 print 'Tempfile are removed'
 logger.info('    The Tempfile ' + TempFile + ' for XML read are deletet')
 '''
+os.chdir(mergPath)
+if not fi.startswith("K"):
+    print 'es ist ein TRun'
+    exit()
+
+    
+    
+    
+pathgr01 = '/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/nfs/GROUP01/Tempoutput/'
+pathgr02 = '/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/nfs/GROUP02/Tempoutput/'
+pathgr03 = '/Users/Heinz-MacBook/Documents/workspace/gitwue/wuepython/damon/nfs/GROUP03/Tempoutput/'
+
+
+# Gruppe1
+for root, dirs, files in os.walk(pathgr01, topdown=False):
+    for name in files:
+        os.remove(os.path.join(root, name))
+    for name in dirs:
+        os.rmdir(os.path.join(root, name))
+
+time.sleep(5)   
+for name in files:
+    print name
+    if name != '':
+        print 'Es ist noch ein File in der Gruppe 1 vorhandens'
+        print name
+        
+
+# Gruppe2
+for root, dirs, files in os.walk(pathgr02, topdown=False):
+    for name in files:
+        os.remove(os.path.join(root, name))
+    for name in dirs:
+        os.rmdir(os.path.join(root, name))
+
+time.sleep(5)   
+for name in files:
+    print name
+    if name != '':
+        print 'Es ist noch ein File in der Gruppe 2 vorhandens'
+        print name
+
+
+# Gruppe3
+for root, dirs, files in os.walk(pathgr03, topdown=False):
+    for name in files:
+        os.remove(os.path.join(root, name))
+    for name in dirs:
+        os.rmdir(os.path.join(root, name))
+
+time.sleep(5)   
+for name in files:
+    print name
+    if name != '':
+        print 'Es ist noch ein File in der Gruppe 3 vorhandens'
+        print name            
+
