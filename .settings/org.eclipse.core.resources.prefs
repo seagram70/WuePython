@@ -3,3 +3,6 @@ encoding//DocStatistic/prog/DocStatistikVDFS.py=utf-8
 encoding//DocStatistic/prog/mail.py=utf-8
 encoding//damon/prog/damonFillJsonWithDocs.py=utf-8
 encoding/count.py=utf-8
+encoding/find.py=utf-8
+encoding/findemptydirs.py=utf-8
+encoding/gui.py=utf-8
