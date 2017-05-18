@@ -22,11 +22,9 @@ while not findGroupsinLog('/Users/Heinz-MacBook/Documents/workspace/Privat/testl
     print "Sleeping for 30 sec"
     time.sleep(5)
 
-
 while not findGroupsinLog('/Users/Heinz-MacBook/Documents/workspace/Privat/testlog.txt', 'GROUP02', 'K31T'):
     print "Sleeping for 30 sec"
     time.sleep(5)
-
 
 while not findGroupsinLog('/Users/Heinz-MacBook/Documents/workspace/Privat/testlog.txt', 'GROUP03', 'K31T'):
     print "Sleeping for 30 sec"
