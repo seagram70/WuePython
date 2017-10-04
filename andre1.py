@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
+# test eintrag
+
 varRun1 = 'Run completed: K11T'
 varRun2 = 'Run completed: K21T'
 varRun3 = 'Run completed: K31T'
