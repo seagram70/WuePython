@@ -75,3 +75,8 @@ print(time.strftime("%Z"))
 
 #%%   Erzeugt ein Prozentzeichen.
 
+
+
+
+
+print'gagaga'
