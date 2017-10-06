@@ -1,0 +1,6 @@
+[input]
+server      = mislwmvdfs01
+environment = Production
+service     = VDF
+mergPath    = /Users/Heinz-MacBook/Documents/workspace/Privat/damon/merge/
+logPath     = /Users/Heinz-MacBook/Documents/workspace/Privat/damon/logs/damon.log
