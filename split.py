@@ -3,9 +3,9 @@
 
 s = "guten morgen sehr"
 
-for erg in s:
+for ent in s:
 
-    print erg,
+    print ent,
 
 
 
