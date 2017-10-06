@@ -8,3 +8,4 @@ def pow_example(n, p=2):
     return n * pow_example(n, p-1)
 
 print pow_example(3, 3)
+
