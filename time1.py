@@ -9,7 +9,7 @@ hms   = time.strftime("%H:%M:%S")
 jul   = time.strftime("%j")
 day   = time.strftime("%A")
 
-print day 
+print (day)
 
 
 

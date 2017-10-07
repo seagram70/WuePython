@@ -13,4 +13,5 @@ encoding/find.py=utf-8
 encoding/findemptydirs.py=utf-8
 encoding/gui.py=utf-8
 encoding/primzahl.py=utf-8
+encoding/time1.py=utf-8
 encoding/try_except.py=utf-8
