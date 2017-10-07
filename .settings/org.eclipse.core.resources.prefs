@@ -11,3 +11,5 @@ encoding/count.py=utf-8
 encoding/find.py=utf-8
 encoding/findemptydirs.py=utf-8
 encoding/gui.py=utf-8
+encoding/palindrom.py=utf-8
+encoding/time1.py=utf-8
