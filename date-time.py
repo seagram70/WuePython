@@ -74,4 +74,3 @@ print(time.strftime("%Y"))
 print(time.strftime("%Z"))
 
 #%%   Erzeugt ein Prozentzeichen.
-

@@ -1,3 +1,6 @@
+=\=\=\=\=\=\=
+<<<<<<<=HEAD
+>>>>>>>=0af8d27cfaef6ac2400e5fe9be450ed5aa83435f
 eclipse.preferences.version=1
 encoding//DocStatistic/prog/DocStatistikVDFS.py=utf-8
 encoding//DocStatistic/prog/mail.py=utf-8
@@ -6,10 +9,12 @@ encoding//atest/__init__.py=utf-8
 encoding//atest/gaga.py=utf-8
 encoding//damon/prog/damonFillJsonWithDocs.py=utf-8
 encoding/andre1.py=utf-8
-encoding/baer.py=utf-8
 encoding/count.py=utf-8
+encoding/date-time.py=iso-8859-1
 encoding/find.py=utf-8
 encoding/findemptydirs.py=utf-8
 encoding/gui.py=utf-8
 encoding/palindrom.py=utf-8
+encoding/primzahl.py=utf-8
 encoding/time1.py=utf-8
+encoding/try_except.py=utf-8
