@@ -1,116 +1,105 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
-# Author:         Heinz Wuethrich
-# Created:        22.01.2017
-# Modified:       08.02.2017        Service Stop eingebaut
-#                 18.02.2017        Master Server als letzten Server eingefügt
-#                 07.03.2017        config File anpassung in liste gesetzt
-#                 12.03.2017        Logmeldungen angepasst
-# Program:        ShutdownVDFS.py
-# Version:        2.0.0
-
-# Description:    Rollt alle Logfiles aus dem LOG Directory. Ab der Version 5 im
-#                 log_archive Directory werde die Files gezippt und in einen neu
-#                 angelegten Ordner abgelegt.
-
-
-import os, shutil 
-import time
-import logging.handlers
-import zipfile
-from os import listdir
-from os.path import isfile, join, exists
-#import socket
-import win32serviceutil
-import subprocess
-import glob
-
+import io
+'''
 # ****************************
 #    Configfile variablen    *
 # ****************************
-try:
-    from configparser import SafeConfigParser
-except ImportError:
-    from ConfigParser import SafeConfigParser       # ver. < 3.0
-
+from configparser import SafeConfigParser
 parser = SafeConfigParser()
-parser.read('..\\cfg\\Shut.cfg')    # For local use
+parser.read('../cfg/configfile.cfg')    # For local use
+'''
 
-#config.read('F:\\Programs\\Shutdown-LogRollover\\cfg\\Shut.cfg')        # For server use
+# Load the configuration file
+with open('../cfg/configfile.cfg') as f:
+    from configparser import SafeConfigParser
+    parser = SafeConfigParser()
+    sample_config = f.read()
+parser = SafeConfigParser(allow_no_value=True)
+parser.readfp(io.BytesIO(sample_config))
+
+# List all contents
+print("List all contents")
+for section in parser.sections():
+    print("Section: %s" % section)
+    for options in parser.options(section):
+        print("x %s:::%s:::%s" % (options,
+                                  parser.get(section, options),
+                                  str(type(options))))
+
+# Print some contents
+print("\nPrint some contents")
+print(parser.get('other', 'use_anonymous'))  # Just get the value
+print(parser.getboolean('other', 'use_anonymous'))  # You know the datatype?
 
 
-rolloverlog     = parser.get('pfade', 'rolloverlog')
-PFAD_ARCH       = parser.get('pfade', 'PFAD_ARCH')
+
+
+
+
+
+
+
+
+
+exit()
+
+
+
+
+items = parser.items( "pfade" )
+dict = {}
+for keys, values in items:
+    dict.append(keys, values)
+pfadelist = dict
+
+
+print(pfadelist)
+#print(PFAD_LOG)
+
+exit()
+
+'''
+for section_name in parser.sections():
+#    print ('Section:', section_name)
+#    print ('  Options:', parser.options(section_name))
+    for name, value in parser.items(section_name):
+        print ('  %s = %s' % (name, value))
+    print()
+    
+#print(PFAD_LOG)   
+exit()
+'''
+
 PFAD_LOG        = parser.get('pfade', 'PFAD_LOG')
+LOGFILENAME     = parser.get('pfade', 'LOGFILENAME')
+Drive           = parser.get('pfade', 'Drive')
 environment     = parser.get('pfade', 'environment')
 
-# ******************************************************
-# *** Logger                                         ***
-# ******************************************************
-logger = logging.getLogger("   v2.0.0  ")
-logger.setLevel(logging.DEBUG)
-
-# create a file handler
-handler = logging.FileHandler(rolloverlog)
-handler.setLevel(logging.INFO)
-
-# create a logging format
-formatter = logging.Formatter('%(asctime)s %(name)s [%(levelname)s]  %(message)s')
-handler.setFormatter(formatter)
-
-# add the handlers to the logger
-logger.addHandler(handler)
-
-# ***************************************************************
-#    def Functions                                              *
-# ***************************************************************
-
-# Wait for the input File are createt
-def wait4Files(path, filenamePattern):
-    for name in glob.glob(path + filenamePattern):
-        print name
-        return True
-    return False
-
-# Stopped the running windows Services
-def stop_service(service):
-    try:
-        ret =  win32serviceutil.QueryServiceStatus(service)
-        print "check if Services exists"
-        logger.info('check if Services exists')
-        while ret[1] != 1:
-            if ret[1] == 4:
-                win32serviceutil.StopService(service)
-            time.sleep(1) 
-            ret =  win32serviceutil.QueryServiceStatus(service)
-        print "" + service + " stopped"
-        logger.info('Service ' + service + ' stopped')
-    except Exception:
-        logger.warn('The Service does not exist ' + service + ' Error 1060 is allowed.', exc_info=False)
-
-
-def reboot_server(env):
-    try:
-        for server in env:
-            subprocess.call('shutdown -r -f -t 10 /m \\\\%s' % server)
-            logger.info('Server ' + server + ' start rerboot')
-    except Exception:
-        logger.error('The Server ' + server + ' will not rebooted', exc_info=True)
-        
 
 # ***************************************************************
 #    auslesen der config section "server" und section           *
 #    services aus dem config File                               *
 # ***************************************************************
 #HOST        = (socket.gethostname())
-items = parser.items( "server" )
+items = parser.items( "databases" )
 liste = []
 for keyServer, valueServer in items:
     liste.append(valueServer)
 serverlist = liste
 
 
+print(serverlist)
+print(PFAD_LOG)
+print(LOGFILENAME)
+print(Drive)
+print(environment)
+
+
+
+
+'''
 items = parser.items( "services" )
 listeserv = []
 for keyservices, valueservices in items:
@@ -223,3 +212,4 @@ try:
 except Exception,e:
     logger.error('not all Server are rebootet', exc_info=True)
 
+'''
