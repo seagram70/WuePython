@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- encoding: utf-8 -*-
 
+
 import io
 '''
 # ****************************
@@ -10,6 +11,9 @@ from configparser import SafeConfigParser
 parser = SafeConfigParser()
 parser.read('../cfg/configfile.cfg')    # For local use
 '''
+#===============================================================================
+# 
+#===============================================================================
 
 # Load the configuration file
 with open('../cfg/configfile.cfg') as f:
