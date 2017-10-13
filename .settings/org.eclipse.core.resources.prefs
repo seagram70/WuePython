@@ -1,14 +1,7 @@
 eclipse.preferences.version=1
-encoding//Aconfig/prog/DBBackup.py=utf-8
-encoding//Apack/__init__.py=utf-8
-encoding//Apack/bin/FileChecker.py=utf-8
-encoding//Apack/prog/start.py=utf-8
 encoding//DocStatistic/prog/DocStatistikVDFS.py=utf-8
 encoding//DocStatistic/prog/mail.py=utf-8
 encoding//FUNCTIONS/aufruf.py=utf-8
-encoding//ShutdownVDFS/prog/ShutdownVDFS.py=utf-8
-encoding//atest/__init__.py=utf-8
-encoding//atest/gaga.py=utf-8
 encoding//damon/prog/damonFillJsonWithDocs.py=utf-8
 encoding/DateTime.py=iso-8859-1
 encoding/PyQt.py=utf-8

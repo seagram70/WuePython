@@ -19,18 +19,20 @@ import subprocess
 import socket
 from mail import sendEmail
 
+print(socket.gethostname())
+
 # ----  Abfrage des Environments ------
 if socket.gethostname() in ['mpzhwmvdfs01', 'mpzhwsvdfs02', 'mpzhwsvdfs03', 'mpzhwsvdfs04', 'mpzhwsvdfs05', 'mpzhwsvdfs06', 'mpzhwfvdfs07']:
         env = 'prodenv'
-        print env
+        print (env)
 elif socket.gethostname() in ['mislwmvdfs41', 'mislwsvdfs42', 'mislwsvdfs43', 'mislwsvdfs44', 'mislwsvdfs45', 'mislwsvdfs46', 'mislwfvdfs47']:
         env = 'intenv'
-        print env
-elif socket.gethostname() in ['N36165']:
+        print (env)
+elif socket.gethostname() in ['Heinzs-MacBook-Pro.local']:
         env = 'localenv'
-        print env
+        print (env)
 else:
-        print 'Wrong Environment'
+        print ('Wrong Environment')
         exit()    
 
 
@@ -46,7 +48,7 @@ parser = SafeConfigParser()                                                # ins
 
 
 # parse existing config file
-parser.read('..\\cfg\\DocStat.cfg')                                # For local use
+parser.read('../cfg/DocStat.cfg')                                # For local use
 #parser.read('F:\\Programs\\DocStatistic\\cfg\\DocStat.cfg')        # For server use
 
 DeltaFiles   = parser.get(env, 'DeltaFiles')
@@ -89,16 +91,16 @@ dowl  = time.strftime("%A")
 
 def wait4Files(path, filename, Y, year, jul, pattern):
     for name in glob.glob(path + filename + Y + year + jul + pattern):
-        print name
+        print (name)
         logger.info('File ' + filename + Y + year + jul + pattern + ' found in the input Directory.')
         for name1 in glob.glob(DeltaFake + filename + Y + year + jul + pattern):
-            print name1
+            print (name1)
             if os.path.exists(name1):
                 logger.info('The Docs was allready counted for the File ' + filename + Y + year + jul + pattern + ' today.')
                 return False
         with open(path + filename + Y + year + jul + pattern) as f:
             line_count = len(f.readlines())
-            print line_count
+            print (line_count)
             out = open(StatDir + StatFile, 'a')
             out.write(today + "  " + hms + "   " + "RUN" + pattern + "  Docs in File " + "  " + (str(line_count)) + "\n")
             out.close()
@@ -125,28 +127,28 @@ logger.info('Starting Script to search inputFile to create Statisic for Doc Coun
 # ***    Run Doc_Count for T10T    ***
 # ************************************
 if not wait4Files(DeltaFiles, labelTrun, ".Y", year, jul + ".", "T10T"):
-    print 'The input File ' + labelTrun + ".Y" + year + jul + 'T10T' + ' are not available, Sleeping for 5 sec'
+    print ('The input File ' + labelTrun + ".Y" + year + jul + 'T10T' + ' are not available, Sleeping for 5 sec')
     time.sleep(1)
 
 if not wait4Files(DeltaFiles, labelTrun, ".Y", year, jul + ".", "T20T"):
-    print 'The input File ' + labelTrun + ".Y" + year + jul + 'T20T' + ' are not available, Sleeping for 5 sec'
+    print ('The input File ' + labelTrun + ".Y" + year + jul + 'T20T' + ' are not available, Sleeping for 5 sec')
     time.sleep(1)
         
 if not wait4Files(DeltaFiles, labelTrun, ".Y", year, jul + ".", "T30T"):
-    print 'The input File ' + labelTrun + ".Y" + year + jul + 'T30T' + ' are not available, Sleeping for 5 sec'
+    print ('The input File ' + labelTrun + ".Y" + year + jul + 'T30T' + ' are not available, Sleeping for 5 sec')
     time.sleep(1)
 
 if not wait4Files(DeltaFiles, labelNetting, ".Y", year, jul + ".", "D01T"):
-    print 'The input File ' + labelNetting + ".Y" + year + jul + 'D01T' + ' are not available, Sleeping for 5 sec'
+    print ('The input File ' + labelNetting + ".Y" + year + jul + 'D01T' + ' are not available, Sleeping for 5 sec')
     time.sleep(1)
         
 if dowl == 'Sunday':
     if not wait4Files(DeltaFiles, labelTrun, ".Y", year, jul + ".", "T01S"):
-        print 'The input File ' + labelTrun + ".Y" + year + jul + 'T01S' + ' are not available, Sleeping for 5 sec'
+        print ('The input File ' + labelTrun + ".Y" + year + jul + 'T01S' + ' are not available, Sleeping for 5 sec')
 
         time.sleep(1)
 else:
-    print "not Sunday, the Script will be abort"
+    print ("not Sunday, the Script will be abort")
     logger.info('not Sunday, the Script will be abort')
 
 time.sleep(5)
