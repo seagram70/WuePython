@@ -17,7 +17,8 @@ import os
 import logging
 import subprocess
 import socket
-from mail import sendEmail
+from bin.mail import sendEmail
+from DocStatistic.bin.wait4files import wait4Files
 
 print(socket.gethostname())
 
@@ -48,8 +49,7 @@ parser = SafeConfigParser()                                                # ins
 
 
 # parse existing config file
-parser.read('../cfg/DocStat.cfg')                                # For local use
-#parser.read('F:\\Programs\\DocStatistic\\cfg\\DocStat.cfg')        # For server use
+parser.read('/cfg/DocStat.cfg')                                # For local use
 
 DeltaFiles   = parser.get(env, 'DeltaFiles')
 StatDir      = parser.get(env, 'StatDir')
@@ -88,7 +88,7 @@ hms   = time.strftime("%H:%M:%S")
 jul   = time.strftime("%j")
 dowl  = time.strftime("%A")
 
-
+'''
 def wait4Files(path, filename, Y, year, jul, pattern):
     for name in glob.glob(path + filename + Y + year + jul + pattern):
         print (name)
@@ -117,7 +117,7 @@ def wait4Files(path, filename, Y, year, jul, pattern):
             subprocess.call(['python.exe', 'DocCounter.py', inputFile])
         return True
     return False
-
+'''
 
 
 logger.info('Starting Script to search inputFile to create Statisic for Doc Counts')
