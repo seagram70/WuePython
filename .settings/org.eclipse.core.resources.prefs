@@ -16,6 +16,7 @@ encoding/baer.py=utf-8
 encoding/copy-rename.py=utf-8
 encoding/count.py=utf-8
 encoding/delete.py=utf-8
+encoding/error.py=utf-8
 encoding/filechecker.py=utf-8
 encoding/find.py=utf-8
 encoding/findemptydirs.py=utf-8
