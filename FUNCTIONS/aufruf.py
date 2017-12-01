@@ -30,7 +30,7 @@ for outp in selectionDir:
         
     with open("U:\\nfs\\temp.txt", 'r') as f:
         line_count = len(f.readlines())
-        print line_count
+        print (line_count)
         
     os.remove(pfad + "temp.txt")
     
