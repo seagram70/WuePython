@@ -4,8 +4,6 @@
 eclipse.preferences.version=1
 encoding//DocStatistic/prog/DocStatistikVDFS.py=utf-8
 encoding//DocStatistic/prog/mail.py=utf-8
-encoding//FUNCTIONS/aufruf.py=utf-8
-encoding//FUNCTIONS/rolloverLocal.py=utf-8
 encoding//ShutdownVDFS/prog/ShutdownVDFS.py=utf-8
 encoding//atest/__init__.py=utf-8
 encoding//atest/gaga.py=utf-8
