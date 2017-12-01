@@ -1,6 +1,4 @@
 eclipse.preferences.version=1
-encoding//A/a.py=utf-8
-encoding//A/b.py=utf-8
 encoding//DocStatistic/DocStatistikVDFS.py=utf-8
 encoding//DocStatistic/bin/mail.py=utf-8
 encoding//FUNCTIONS/aufruf.py=utf-8
@@ -13,6 +11,7 @@ encoding/LogRollover1.py=utf-8
 encoding/LogRollover2.py=utf-8
 encoding/PyQt.py=utf-8
 encoding/andre1.py=utf-8
+encoding/andre3.py=utf-8
 encoding/baer.py=utf-8
 encoding/copy-rename.py=utf-8
 encoding/count.py=utf-8
