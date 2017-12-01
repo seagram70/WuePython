@@ -1,20 +1,16 @@
 =\=\=\=\=\=\=
 <<<<<<<=HEAD
->>>>>>>=0af8d27cfaef6ac2400e5fe9be450ed5aa83435f
+>>>>>>>=integration
 eclipse.preferences.version=1
-<<<<<<< HEAD
+encoding//DocStatistic/DocStatistikVDFS.py=utf-8
+encoding//DocStatistic/bin/mail.py=utf-8
 encoding//DocStatistic/prog/DocStatistikVDFS.py=utf-8
 encoding//DocStatistic/prog/mail.py=utf-8
+encoding//FUNCTIONS/aufruf.py=utf-8
+encoding//FUNCTIONS/rolloverLocal.py=utf-8
 encoding//ShutdownVDFS/prog/ShutdownVDFS.py=utf-8
 encoding//atest/__init__.py=utf-8
 encoding//atest/gaga.py=utf-8
-encoding/andre1.py=utf-8
-=======
-encoding//DocStatistic/DocStatistikVDFS.py=utf-8
-encoding//DocStatistic/bin/mail.py=utf-8
-encoding//FUNCTIONS/aufruf.py=utf-8
-encoding//FUNCTIONS/rolloverLocal.py=utf-8
-encoding//damon/prog/damonFillJsonWithDocs.py=utf-8
 encoding/DateTime.py=iso-8859-1
 encoding/DocStatistikVDFS.py=utf-8
 encoding/LogRollover.py=utf-8
@@ -25,7 +21,6 @@ encoding/andre1.py=utf-8
 encoding/andre3.py=utf-8
 encoding/baer.py=utf-8
 encoding/copy-rename.py=utf-8
->>>>>>> integration
 encoding/count.py=utf-8
 encoding/delete.py=utf-8
 encoding/error.py=utf-8
@@ -34,12 +29,9 @@ encoding/find.py=utf-8
 encoding/findemptydirs.py=utf-8
 encoding/fobj.py=utf-8
 encoding/gui.py=utf-8
-<<<<<<< HEAD
-encoding/palindrom.py=utf-8
-=======
 encoding/input1.py=utf-8
 encoding/log.py=utf-8
->>>>>>> integration
+encoding/palindrom.py=utf-8
 encoding/primzahl.py=utf-8
 encoding/time1.py=utf-8
 encoding/try_except.py=utf-8
