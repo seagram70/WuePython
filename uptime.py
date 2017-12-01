@@ -23,7 +23,9 @@ def uptime():
 
 # main function
 def main():
-    print "System uptime: %s" % uptime()
+    print ("System uptime: %s" % uptime())
 
-#if __name__ == '__main__':
-#  main()
+
+if __name__ == '__main__':
+#    main()
+    uptime()
