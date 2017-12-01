@@ -2,38 +2,37 @@
 # -*- coding: utf-8 -*-
     
 import os
-import glob
-import logging
-import logging.handlers
-import time
-import logging
 from logging.handlers import RotatingFileHandler
-
+import logging
 
 pfad = '/Users/Heinz-MacBook/Documents/workspace/Privat/logs'
+
 logfiles = [f for f in os.listdir(pfad)]
-
-#logfiles = [f for f in os.listdir(pfad) if os.path.isfile(f)]
-#print logfiles
-
+print (logfiles)
 
 def logRollover():
     for ff in logfiles:
-        print ff
         logger = logging.getLogger(ff)
-        handler = logging.handlers.RotatingFileHandler(ff, backupCount=5)
+        logger.setLevel(logging.DEBUG)
+        handler = RotatingFileHandler('testlog99.log', backupCount=10)
         logger.addHandler(handler)
+        
 
-
+logRollover()
+      
+'''
+        print (ff)
+        logger = logging.getLogger(ff)
+        handler = logging.handlers.RotatingFileHandler(ff, backupCount=12)
+        logger.addHandler(handler)
 
         logger = logging.getLogger(ff)
         logger.setLevel(logging.DEBUG)
-        handler = RotatingFileHandler('testlog.log', backupCount=10)
+        handler = RotatingFileHandler('testlog99.log', backupCount=10)
         logger.addHandler(handler)
 
-
+'''
     
     
-logRollover()
 
 
