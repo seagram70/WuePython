@@ -24,3 +24,7 @@
 2017-05-04 15:21:26,891    v1.0.5   [INFO]  Starting DocCounter per Doc Type
 2017-05-04 15:21:26,970    v1.0.5   [INFO]  write counted Docs to the Outputfile
 2017-05-04 15:21:27,999    v1.0.5   [INFO]  not Sunday, the Script will be abort
+2017-10-13 22:47:29,114    v1.0.5   [INFO]  Starting Script to search inputFile to create Statisic for Doc Counts
+2017-10-13 22:47:33,128    v1.0.5   [INFO]  not Sunday, the Script will be abort
+2017-10-13 22:48:06,245    v1.0.5   [INFO]  Starting Script to search inputFile to create Statisic for Doc Counts
+2017-10-13 22:48:10,261    v1.0.5   [INFO]  not Sunday, the Script will be abort
